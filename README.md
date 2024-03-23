@@ -49,9 +49,8 @@ The Pokedex application is open-source software licensed under the [MIT License]
 
 For more information, visit the [GitHub repository](https://github.com/yourusername/pokedex).
 
-### Adding a Video
+### Example
 
-```html
-<video width="320" height="240" controls>
-  <iframe src="https://streamable.com/e/1j7xf3" width="100%" height="100%" frameborder="0" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe>
-</video>
+Here is a example on video of the app working.
+
+[Video](https://drive.google.com/file/d/1VJiz2Fy8lg6VSn77wE7WQLOOHhgaFpMD/view?usp=sharing)
