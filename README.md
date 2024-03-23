@@ -1,79 +1,57 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Pokedex Application Readme
 
-# Getting Started
+Welcome to the Pokedex application! This readme provides an overview of the app, its features, and how to use it effectively.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Table of Contents
+1. **Introduction**
+2. **Features**
+3. **Installation**
+4. **Usage**
+5. **Contributing**
+6. **License**
 
-## Step 1: Start the Metro Server
+## 1. Introduction
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+The Pokedex application is a comprehensive tool for Pokemon trainers, enthusiasts, and collectors. It allows users to browse through a vast database of Pokemon species, view detailed information about each Pokemon, and even search for specific Pokemon by name.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## 2. Features
 
-```bash
-# using npm
-npm start
+- **Browse Pokemon**: Explore a rich collection of Pokemon species, complete with detailed information such as type, abilities, stats, and more.
+- **Search Functionality**: Quickly find any Pokemon by searching for its name.
+- **Interactive Interface**: Enjoy smooth animations and transitions while navigating through the app.
+- **Dynamic Loading**: Pokemon data is loaded dynamically, ensuring a fast and efficient browsing experience.
 
-# OR using Yarn
-yarn start
-```
+## 3. Installation
 
-## Step 2: Start your Application
+To install the Pokedex application, follow these steps:
+- Clone the repository from GitHub: `git clone https://github.com/yourusername/pokedex.git`
+- Navigate to the project directory: `cd pokedex`
+- Install dependencies: `npm install` or `yarn install`
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+## 4. Usage
 
-### For Android
+To start using the Pokedex application, follow these steps:
+- Start the development server: `npm start` or `yarn start`
+- Open the app in your web browser by navigating to `http://localhost:3000`
 
-```bash
-# using npm
-npm run android
+## 5. Contributing
 
-# OR using Yarn
-yarn android
-```
+Contributions to the Pokedex application are welcome! If you would like to contribute, please follow these guidelines:
+- Fork the repository on GitHub
+- Create a new branch for your feature or bug fix: `git checkout -b feature-name`
+- Make your changes and commit them with descriptive commit messages: `git commit -m "Add feature"`
+- Push your changes to your fork: `git push origin feature-name`
+- Submit a pull request to the main repository
 
-### For iOS
+## 6. License
 
-```bash
-# using npm
-npm run ios
+The Pokedex application is open-source software licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-# OR using Yarn
-yarn ios
-```
+For more information, visit the [GitHub repository](https://github.com/yourusername/pokedex).
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+### Adding a Video
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+```html
+<video width="320" height="240" controls>
+  <iframe src="https://streamable.com/e/1j7xf3" width="100%" height="100%" frameborder="0" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe>
+</video>
